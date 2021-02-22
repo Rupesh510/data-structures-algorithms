@@ -6,6 +6,8 @@
   "scripts": {
     "001-big-o:001": "node ./001-big-o/001.js",
     "001-big-o:002": "node ./001-big-o/002.js",
+    "001-big-o:003": "node ./001-big-o/003.js",
+    "001-big-o:004": "node ./001-big-o/004.js",
     "start": "node ./index.js"
   },
   "author": "",

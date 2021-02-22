@@ -1,5 +1,5 @@
 /**
- * O(n)
+ * O(n) => Linear Time
  */
 
 {
