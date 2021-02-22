@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "001-big-o:001": "node ./001-big-o/001.js"
+    "001-big-o:001": "node ./001-big-o/001.js",
+    "001-big-o:002": "node ./001-big-o/002.js",
+    "start": "node ./index.js"
   },
   "author": "",
   "license": "MIT"
