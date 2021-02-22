@@ -1,0 +1,11 @@
+{
+  "name": "data-structures-algorithms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "001-big-o:001": "node ./001-big-o/001.js"
+  },
+  "author": "",
+  "license": "MIT"
+}
