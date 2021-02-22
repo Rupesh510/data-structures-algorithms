@@ -9,6 +9,7 @@
     "001-big-o:003": "node ./001-big-o/003.js",
     "001-big-o:004": "node ./001-big-o/004.js",
     "001-big-o:exercise:001": "node ./001-big-o/exercise/001/solution.js",
+    "001-big-o:exercise:002": "node ./001-big-o/exercise/002/solution.js",
     "start": "node ./index.js"
   },
   "author": "",
