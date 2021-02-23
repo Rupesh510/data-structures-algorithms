@@ -11,6 +11,7 @@
     "001-big-o:005": "node ./001-big-o/005.js",
     "001-big-o:006": "node ./001-big-o/006.js",
     "001-big-o:007": "node ./001-big-o/007.js",
+    "001-big-o:008": "node ./001-big-o/008.js",
     "001-big-o:exercise:001": "node ./001-big-o/exercise/001/solution.js",
     "001-big-o:exercise:002": "node ./001-big-o/exercise/002/solution.js",
     "start": "node ./index.js"
