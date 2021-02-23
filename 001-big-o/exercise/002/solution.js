@@ -26,4 +26,4 @@ function anotherFunChallenge(input) {
   let whoAmI = "I don't know"; // O(1)
 }
 
-// => O(4 + 7n) => O(n) => Linear Time
+// => Time Complexity: O(4 + 7n) => O(n)

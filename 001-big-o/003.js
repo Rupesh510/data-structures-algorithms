@@ -12,4 +12,4 @@
   logFirstBox(myBoxes); // O(1) => Constant Time
 }
 
-// => O(1)
+// => Time Complexity: O(1)

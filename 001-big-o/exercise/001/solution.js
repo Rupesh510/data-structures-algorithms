@@ -18,4 +18,4 @@ function funChallenge(input) {
   return a; // O(1)
 }
 
-// => O(3 + 4n) => O(n) => Linear Time
+// => Time Complexity: O(3 + 4n) => O(n)
