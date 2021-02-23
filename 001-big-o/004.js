@@ -12,3 +12,5 @@
 
   logFirstTwoBoxes(myBoxes); // O(2) => O(1) => Constant Time
 }
+
+// => O(1)
