@@ -14,10 +14,13 @@
     "001-big-o:008": "node ./001-big-o/008.js",
     "001-big-o:009": "node ./001-big-o/009.js",
     "001-big-o:010": "node ./001-big-o/010.js",
+    "001-big-o:011": "node ./001-big-o/011.js",
     "001-big-o:exercise:001": "node ./001-big-o/exercise/001/solution.js",
     "001-big-o:exercise:002": "node ./001-big-o/exercise/002/solution.js",
     "001-big-o:exercise:003": "node ./001-big-o/exercise/003/solution.js",
     "001-big-o:exercise:004": "node ./001-big-o/exercise/004/solution.js",
+    "001-big-o:exercise:005": "node ./001-big-o/exercise/005/solution.js",
+    "001-big-o:exercise:006": "node ./001-big-o/exercise/006/solution.js",
     "start": "node ./index.js"
   },
   "author": "",
