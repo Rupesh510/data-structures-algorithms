@@ -17,6 +17,7 @@
     "001-big-o:exercise:001": "node ./001-big-o/exercise/001/solution.js",
     "001-big-o:exercise:002": "node ./001-big-o/exercise/002/solution.js",
     "001-big-o:exercise:003": "node ./001-big-o/exercise/003/solution.js",
+    "001-big-o:exercise:004": "node ./001-big-o/exercise/004/solution.js",
     "start": "node ./index.js"
   },
   "author": "",
