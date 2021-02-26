@@ -21,6 +21,7 @@
     "001-big-o:exercise:004": "node ./001-big-o/exercise/004/solution.js",
     "001-big-o:exercise:005": "node ./001-big-o/exercise/005/solution.js",
     "001-big-o:exercise:006": "node ./001-big-o/exercise/006/solution.js",
+    "002-data-structures:001-arrays:001": "node ./002-data-structures/001-arrays/001.js",
     "start": "node ./index.js"
   },
   "author": "",
