@@ -28,6 +28,7 @@
     "002-data-structures:001-arrays:005": "node ./002-data-structures/001-arrays/005.js",
     "002-data-structures:001-arrays:exercise:001": "node ./002-data-structures/001-arrays/exercise/001/solution.js",
     "002-data-structures:001-arrays:exercise:002": "node ./002-data-structures/001-arrays/exercise/002/solution.js",
+    "002-data-structures:001-arrays:exercise:leetcode:001": "node ./002-data-structures/001-arrays/exercise/leetcode/001/solution.js",
     "start": "node ./index.js"
   },
   "author": "",
