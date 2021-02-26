@@ -26,6 +26,7 @@
     "002-data-structures:001-arrays:003": "node ./002-data-structures/001-arrays/003.js",
     "002-data-structures:001-arrays:004": "node ./002-data-structures/001-arrays/004.js",
     "002-data-structures:001-arrays:005": "node ./002-data-structures/001-arrays/005.js",
+    "002-data-structures:001-arrays:exercise:001": "node ./002-data-structures/001-arrays/exercise/001/solution.js",
     "start": "node ./index.js"
   },
   "author": "",
