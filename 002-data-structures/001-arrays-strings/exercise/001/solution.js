@@ -27,6 +27,8 @@
   ); // adnahcnaM yrraH si emaN yM ,iH
 }
 
+console.log("\n================================\n");
+
 {
   function reverse(str) {
     if (!str || str.length < 2 || typeof str !== "string") {
@@ -41,6 +43,8 @@
     reverse("Hi, My Name is Harry Manchanda"),
   ); // adnahcnaM yrraH si emaN yM ,iH
 }
+
+console.log("\n================================\n");
 
 {
   function reverse(str) {
