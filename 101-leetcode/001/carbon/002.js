@@ -1,5 +1,6 @@
 /**
- * Approach: Hash Map
+ * Approach: Optimal
+ * More Details: Hash Map
  * Time complexity: O(n)
  * Space complexity: O(n)
  */

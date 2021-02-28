@@ -35,7 +35,8 @@ console.log("\n================================\n");
 
 {
   /**
-   * Approach: Hash Map
+   * Approach: Optimal
+   * More Details: Hash Map
    * Time complexity: O(n)
    * Space complexity: O(n)
    */
@@ -66,7 +67,8 @@ console.log("\n================================\n");
 
 {
   /**
-   * Approach: Hash Map with `Map` Global Object
+   * Approach: Optimal
+   * More Details: Hash Map with `Map` Global Object
    * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map
    * Time complexity: O(n)
    * Space complexity: O(n)
