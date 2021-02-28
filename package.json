@@ -29,6 +29,7 @@
     "002-data-structures:001-arrays-strings:exercise:001": "node ./002-data-structures/001-arrays-strings/exercise/001/solution.js",
     "002-data-structures:001-arrays-strings:exercise:002": "node ./002-data-structures/001-arrays-strings/exercise/002/solution.js",
     "101-leetcode:001": "node ./101-leetcode/001/solution.js",
+    "101-leetcode:002": "node ./101-leetcode/002/solution.js",
     "start": "node ./index.js"
   },
   "author": "",
