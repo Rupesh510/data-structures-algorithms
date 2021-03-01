@@ -1,6 +1,7 @@
 /**
  * Trapping Rain Water
  * https://leetcode.com/problems/trapping-rain-water/
+ * Solution Ref: https://www.udemy.com/share/103J2KAEsSeFtRQX4=/
  */
 
 {
