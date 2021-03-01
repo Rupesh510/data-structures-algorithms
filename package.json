@@ -31,6 +31,7 @@
     "101-leetcode:001": "node ./101-leetcode/001/solution.js",
     "101-leetcode:002": "node ./101-leetcode/002/solution.js",
     "101-leetcode:003": "node ./101-leetcode/003/solution.js",
+    "101-leetcode:004": "node ./101-leetcode/004/solution.js",
     "start": "node ./index.js"
   },
   "author": "",
