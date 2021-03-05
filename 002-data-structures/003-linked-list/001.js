@@ -1,5 +1,5 @@
 /**
- * Linked List
+ * Singly Linked List
  */
 
 class Node {
@@ -9,7 +9,7 @@ class Node {
   }
 }
 
-class LinkedList {
+class SinglyLinkedList {
   constructor(value) {
     this.head = {
       value,
@@ -80,7 +80,7 @@ class LinkedList {
   }
 }
 
-const myLinkedList = new LinkedList(10);
+const myLinkedList = new SinglyLinkedList(10);
 console.log(
   "myLinkedList:",
   JSON.stringify(
