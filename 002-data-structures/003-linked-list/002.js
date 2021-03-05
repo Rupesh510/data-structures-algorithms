@@ -1,19 +1,23 @@
 /**
- * Singly Linked List
+ * Doubly Linked List
  */
+
+const stringify = require("json-stringify-safe");
 
 class Node {
   constructor(value) {
     this.value = value;
     this.next = null;
+    this.prev = null;
   }
 }
 
-class SinglyLinkedList {
+class DoublyLinkedList {
   constructor(value) {
     this.head = {
       value,
       next: null,
+      prev: null,
     };
     this.tail = this.head;
     this.length = 1;
@@ -41,6 +45,7 @@ class SinglyLinkedList {
 
   append(value) {
     const newNode = new Node(value);
+    newNode.prev = this.tail;
     this.tail.next = newNode;
     this.tail = newNode;
     this.length += 1;
@@ -50,6 +55,7 @@ class SinglyLinkedList {
   prepend(value) {
     const newNode = new Node(value);
     newNode.next = this.head;
+    this.head.prev = newNode;
     this.head = newNode;
     this.length += 1;
     return this;
@@ -64,9 +70,11 @@ class SinglyLinkedList {
     }
     const newNode = new Node(value);
     const leader = this.traverseToIndex(index - 1);
-    const holdingPointer = leader.next;
+    const follower = leader.next;
     leader.next = newNode;
-    newNode.next = holdingPointer;
+    newNode.prev = leader;
+    newNode.next = follower;
+    follower.prev = newNode;
     this.length += 1;
     return this;
   }
@@ -74,16 +82,18 @@ class SinglyLinkedList {
   remove(index) {
     const leader = this.traverseToIndex(index - 1);
     const unwantedNode = leader.next;
-    leader.next = unwantedNode.next;
+    const follower = unwantedNode.next;
+    leader.next = follower;
+    follower.prev = leader;
     this.length -= 1;
     return this;
   }
 }
 
-const myLinkedList = new SinglyLinkedList(10);
+const myLinkedList = new DoublyLinkedList(10);
 console.log(
   "myLinkedList:",
-  JSON.stringify(
+  stringify(
     {
       data: myLinkedList,
       list: myLinkedList.printList(),
@@ -97,7 +107,7 @@ console.log("\n================================\n");
 
 console.log(
   "myLinkedList.append(5):",
-  JSON.stringify(
+  stringify(
     {
       data: myLinkedList.append(5),
       list: myLinkedList.printList(),
@@ -111,7 +121,7 @@ console.log("\n================================\n");
 
 console.log(
   "myLinkedList.append(16):",
-  JSON.stringify(
+  stringify(
     {
       data: myLinkedList.append(16),
       list: myLinkedList.printList(),
@@ -125,7 +135,7 @@ console.log("\n================================\n");
 
 console.log(
   "myLinkedList.prepend(1):",
-  JSON.stringify(
+  stringify(
     {
       data: myLinkedList.prepend(1),
       list: myLinkedList.printList(),
@@ -139,7 +149,7 @@ console.log("\n================================\n");
 
 console.log(
   "myLinkedList.insert(0, 10):",
-  JSON.stringify(
+  stringify(
     {
       data: myLinkedList.insert(0, 12),
       list: myLinkedList.printList(),
@@ -153,7 +163,7 @@ console.log("\n================================\n");
 
 console.log(
   "myLinkedList.insert(200, 99):",
-  JSON.stringify(
+  stringify(
     {
       data: myLinkedList.insert(200, 99),
       list: myLinkedList.printList(),
@@ -167,7 +177,7 @@ console.log("\n================================\n");
 
 console.log(
   "myLinkedList.insert(2, 9):",
-  JSON.stringify(
+  stringify(
     {
       data: myLinkedList.insert(2, 9),
       list: myLinkedList.printList(),
@@ -181,7 +191,7 @@ console.log("\n================================\n");
 
 console.log(
   "myLinkedList.remove(2):",
-  JSON.stringify(
+  stringify(
     {
       data: myLinkedList.remove(2),
       list: myLinkedList.printList(),
@@ -195,7 +205,7 @@ console.log("\n================================\n");
 
 console.log(
   "myLinkedList.remove(4):",
-  JSON.stringify(
+  stringify(
     {
       data: myLinkedList.remove(4),
       list: myLinkedList.printList(),
