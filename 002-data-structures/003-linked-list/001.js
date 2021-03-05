@@ -70,6 +70,14 @@ class LinkedList {
     this.length += 1;
     return this;
   }
+
+  remove(index) {
+    const leader = this.traverseToIndex(index - 1);
+    const unwantedNode = leader.next;
+    leader.next = unwantedNode.next;
+    this.length -= 1;
+    return this;
+  }
 }
 
 const myLinkedList = new LinkedList(10);
@@ -158,10 +166,38 @@ console.log(
 console.log("\n================================\n");
 
 console.log(
-  "myLinkedList.insert(2, 99):",
+  "myLinkedList.insert(2, 9):",
   JSON.stringify(
     {
       data: myLinkedList.insert(2, 9),
+      list: myLinkedList.printList(),
+    },
+    null,
+    2,
+  ),
+);
+
+console.log("\n================================\n");
+
+console.log(
+  "myLinkedList.remove(2):",
+  JSON.stringify(
+    {
+      data: myLinkedList.remove(2),
+      list: myLinkedList.printList(),
+    },
+    null,
+    2,
+  ),
+);
+
+console.log("\n================================\n");
+
+console.log(
+  "myLinkedList.remove(5):",
+  JSON.stringify(
+    {
+      data: myLinkedList.remove(5),
       list: myLinkedList.printList(),
     },
     null,
