@@ -2,6 +2,13 @@
  * Linked List
  */
 
+class Node {
+  constructor(value) {
+    this.value = value;
+    this.next = null;
+  }
+}
+
 class LinkedList {
   constructor(value) {
     this.head = {
@@ -13,12 +20,17 @@ class LinkedList {
   }
 
   append(value) {
-    const newNode = {
-      value,
-      next: null,
-    };
+    const newNode = new Node(value);
     this.tail.next = newNode;
     this.tail = newNode;
+    this.length += 1;
+    return this;
+  }
+
+  prepend(value) {
+    const newNode = new Node(value);
+    newNode.next = this.head;
+    this.head = newNode;
     this.length += 1;
     return this;
   }
@@ -33,4 +45,8 @@ console.log(
 console.log(
   "myLinkedList.append(16):",
   JSON.stringify(myLinkedList.append(16), null, 2),
+);
+console.log(
+  "myLinkedList.prepend(1):",
+  JSON.stringify(myLinkedList.prepend(1), null, 2),
 );
