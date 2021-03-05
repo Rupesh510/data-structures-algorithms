@@ -29,6 +29,16 @@ class LinkedList {
     return array;
   }
 
+  traverseToIndex(index) {
+    let counter = 0;
+    let currentNode = this.head;
+    while (counter !== index) {
+      currentNode = currentNode.next;
+      counter += 1;
+    }
+    return currentNode;
+  }
+
   append(value) {
     const newNode = new Node(value);
     this.tail.next = newNode;
@@ -45,7 +55,21 @@ class LinkedList {
     return this;
   }
 
-  // insert(index, value) {}
+  insert(index, value) {
+    if (index === 0) {
+      return this.prepend(value);
+    }
+    if (index >= this.length) {
+      return this.append(value);
+    }
+    const newNode = new Node(value);
+    const leader = this.traverseToIndex(index - 1);
+    const holdingPointer = leader.next;
+    leader.next = newNode;
+    newNode.next = holdingPointer;
+    this.length += 1;
+    return this;
+  }
 }
 
 const myLinkedList = new LinkedList(10);
@@ -96,6 +120,48 @@ console.log(
   JSON.stringify(
     {
       data: myLinkedList.prepend(1),
+      list: myLinkedList.printList(),
+    },
+    null,
+    2,
+  ),
+);
+
+console.log("\n================================\n");
+
+console.log(
+  "myLinkedList.insert(0, 10):",
+  JSON.stringify(
+    {
+      data: myLinkedList.insert(0, 12),
+      list: myLinkedList.printList(),
+    },
+    null,
+    2,
+  ),
+);
+
+console.log("\n================================\n");
+
+console.log(
+  "myLinkedList.insert(200, 99):",
+  JSON.stringify(
+    {
+      data: myLinkedList.insert(200, 99),
+      list: myLinkedList.printList(),
+    },
+    null,
+    2,
+  ),
+);
+
+console.log("\n================================\n");
+
+console.log(
+  "myLinkedList.insert(2, 99):",
+  JSON.stringify(
+    {
+      data: myLinkedList.insert(2, 9),
       list: myLinkedList.printList(),
     },
     null,
