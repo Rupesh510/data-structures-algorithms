@@ -42,7 +42,7 @@
     "101-leetcode:008": "node ./101-leetcode/008/solution.js",
     "start": "node ./index.js"
   },
-  "author": "",
+  "author": "Harman Manchanda<https://github.com/IamManchanda>",
   "license": "MIT",
   "dependencies": {
     "json-stringify-safe": "^5.0.1"
