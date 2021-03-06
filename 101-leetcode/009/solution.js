@@ -1,6 +1,7 @@
 /**
  * Backspace String Compare
  * https://leetcode.com/problems/backspace-string-compare/
+ * Solution Ref: https://www.udemy.com/share/103J2KAEsSeFtRQX4=/
  */
 
 {
