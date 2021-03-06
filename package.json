@@ -40,6 +40,7 @@
     "101-leetcode:006": "node ./101-leetcode/006/solution.js",
     "101-leetcode:007": "node ./101-leetcode/007/solution.js",
     "101-leetcode:008": "node ./101-leetcode/008/solution.js",
+    "101-leetcode:009": "node ./101-leetcode/009/solution.js",
     "start": "node ./index.js"
   },
   "author": "Harman Manchanda<https://github.com/IamManchanda>",
