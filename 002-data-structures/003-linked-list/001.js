@@ -78,6 +78,24 @@ class SinglyLinkedList {
     this.length -= 1;
     return this;
   }
+
+  reverse() {
+    if (!this.head.next) {
+      return this.head;
+    }
+    let first = this.head;
+    this.tail = this.head;
+    let second = first.next;
+    while (second) {
+      const temp = second.next;
+      second.next = first;
+      first = second;
+      second = temp;
+    }
+    this.head.next = null;
+    this.head = first;
+    return this;
+  }
 }
 
 const myLinkedList = new SinglyLinkedList(10);
@@ -198,6 +216,20 @@ console.log(
   JSON.stringify(
     {
       data: myLinkedList.remove(4),
+      list: myLinkedList.printList(),
+    },
+    null,
+    2,
+  ),
+);
+
+console.log("\n================================\n");
+
+console.log(
+  "myLinkedList.reverse():",
+  JSON.stringify(
+    {
+      data: myLinkedList.reverse(),
       list: myLinkedList.printList(),
     },
     null,
