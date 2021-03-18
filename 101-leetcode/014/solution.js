@@ -6,6 +6,12 @@
 const { linkedListBuilder, printList } = require("./linked-list");
 
 {
+  /**
+   * Approach: Optimal
+   * Time complexity: O(n)
+   * Space complexity: O(1)
+   */
+
   function reverseList(head) {
     let prev = null;
     let current = head;
