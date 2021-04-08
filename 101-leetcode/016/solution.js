@@ -9,6 +9,12 @@ const {
 } = require("./multi-linked-list");
 
 {
+  /**
+   * Approach: Optimal
+   * Time complexity: O(n)
+   * Space complexity: O(1)
+   */
+
   function flatten(head) {
     if (!head) return head;
 
