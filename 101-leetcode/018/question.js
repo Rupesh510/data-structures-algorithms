@@ -15,4 +15,12 @@
   console.log(`isValid("([)]"):`, isValid("([)]")); // false
 
   console.log(`isValid("{[]}"):`, isValid("{[]}")); // true
+
+  console.log(`isValid("{([])}"):`, isValid("{([])}")); // true
+
+  console.log(`isValid("{([]"):`, isValid("{([]")); // false
+
+  console.log(`isValid("{[(])}"):`, isValid("{[(])}")); // false
+
+  console.log(`isValid("{[]()}"):`, isValid("{[]()}")); // true
 }
