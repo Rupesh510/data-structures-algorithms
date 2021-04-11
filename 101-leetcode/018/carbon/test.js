@@ -1,0 +1,9 @@
+isValid("()"); // true
+isValid("()[]{}"); // true
+isValid("(]"); // false
+isValid("([)]"); // false
+isValid("{[]}"); // true
+isValid("{([])}"); // true
+isValid("{([]"); // false
+isValid("{[(])}"); // false
+isValid("{[]()}"); // true
