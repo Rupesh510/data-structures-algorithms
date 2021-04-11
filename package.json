@@ -33,6 +33,7 @@
     "002-data-structures:003-linked-list:001": "node ./002-data-structures/003-linked-list/001.js",
     "002-data-structures:003-linked-list:002": "node ./002-data-structures/003-linked-list/002.js",
     "002-data-structures:004-stack-queues:001": "node ./002-data-structures/004-stacks-queues/001.js",
+    "002-data-structures:004-stack-queues:002": "node ./002-data-structures/004-stacks-queues/002.js",
     "003-algorithms:001-recursion:001": "node ./003-algorithms/001-recursion/001.js",
     "003-algorithms:001-recursion:002": "node ./003-algorithms/001-recursion/002.js",
     "101-leetcode:001": "node ./101-leetcode/001/solution.js",
