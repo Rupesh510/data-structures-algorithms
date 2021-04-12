@@ -27,3 +27,16 @@ console.log("\nRecursive 👇");
   console.log("recursiveFactorial(4):", recursiveFactorial(4));
   console.log("recursiveFactorial(5):", recursiveFactorial(5));
 }
+
+console.log("\nTail Recursive 👇");
+
+{
+  function tailRecursiveFactorial(n, total = 1) {
+    if (n === 0) return total;
+    return tailRecursiveFactorial(n - 1, total * n);
+  }
+
+  console.log("tailRecursiveFactorial(3):", tailRecursiveFactorial(3));
+  console.log("tailRecursiveFactorial(4):", tailRecursiveFactorial(4));
+  console.log("tailRecursiveFactorial(5):", tailRecursiveFactorial(5));
+}
