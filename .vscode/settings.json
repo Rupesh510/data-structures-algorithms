@@ -44,6 +44,6 @@
     "**/.fusebox/": true,
     "**/.dynamodb/": true,
     "**/.tern-port": true,
-    "**/resources/": true
+    "**/resources/": false
   }
 }

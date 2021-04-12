@@ -18,16 +18,19 @@
 
   const myQueue = new MyQueue();
 
-  myQueue.push(1);
-  console.log(`myQueue:`, myQueue); // [1]
+  console.log(`myQueue.push(1):`, myQueue.push(1)); // 1
 
-  myQueue.push(2);
-  console.log(`myQueue:`, myQueue); // [1, 2]
+  console.log(`myQueue:`, myQueue); // MyQueue { in: [ 1 ], out: [] }
 
-  console.log(myQueue.peek()); // 1
+  console.log(`myQueue.push(2):`, myQueue.push(2)); // 2
 
-  console.log(myQueue.pop()); // 1
-  console.log(`myQueue:`, myQueue); // [2]
+  console.log(`myQueue:`, myQueue); // MyQueue { in: [ 1, 2 ], out: [] }
 
-  console.log(myQueue.empty()); // false
+  console.log(`myQueue.peek():`, myQueue.peek()); // 1
+
+  console.log(`myQueue.pop():`, myQueue.pop()); // 1
+
+  console.log(`myQueue:`, myQueue); // MyQueue { in: [], out: [ 2 ] }
+
+  console.log(`myQueue.empty():`, myQueue.empty()); // false
 }
