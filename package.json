@@ -42,6 +42,7 @@
     "003-algorithms:002-sorting:exercise:001-bubble-sort": "node ./003-algorithms/002-sorting/exercise/001-bubble-sort/solution.js",
     "003-algorithms:002-sorting:exercise:002-selection-sort": "node ./003-algorithms/002-sorting/exercise/002-selection-sort/solution.js",
     "003-algorithms:002-sorting:exercise:003-insertion-sort": "node ./003-algorithms/002-sorting/exercise/003-insertion-sort/solution.js",
+    "003-algorithms:002-sorting:exercise:004-merge-sort": "node ./003-algorithms/002-sorting/exercise/004-merge-sort/solution.js",
     "101-leetcode:001": "node ./101-leetcode/001/solution.js",
     "101-leetcode:002": "node ./101-leetcode/002/solution.js",
     "101-leetcode:003": "node ./101-leetcode/003/solution.js",
