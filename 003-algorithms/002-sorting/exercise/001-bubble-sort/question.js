@@ -1,5 +1,5 @@
 /**
- * Bubble Sort
+ * Approach: Bubble Sort
  */
 
 function bubbleSort(array) {}

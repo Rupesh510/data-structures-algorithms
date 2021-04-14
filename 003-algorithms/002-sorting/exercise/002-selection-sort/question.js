@@ -1,5 +1,5 @@
 /**
- * Selection Sort
+ * Approach: Selection Sort
  */
 
 function selectionSort(array) {}

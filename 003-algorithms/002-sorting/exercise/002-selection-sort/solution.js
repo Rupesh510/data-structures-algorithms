@@ -1,5 +1,7 @@
 /**
- * Selection Sort
+ * Approach: Selection Sort
+ * Time complexity: O(n^2)
+ * Space complexity: O(1)
  */
 
 function selectionSort(array) {
