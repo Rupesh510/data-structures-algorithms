@@ -39,6 +39,7 @@
     "003-algorithms:001-recursion:001": "node ./003-algorithms/001-recursion/001.js",
     "003-algorithms:001-recursion:002": "node ./003-algorithms/001-recursion/002.js",
     "003-algorithms:002-sorting:001": "node ./003-algorithms/002-sorting/001.js",
+    "003-algorithms:002-sorting:exercise:001-bubble-sort": "node ./003-algorithms/002-sorting/exercise/001-bubble-sort/solution.js",
     "101-leetcode:001": "node ./101-leetcode/001/solution.js",
     "101-leetcode:002": "node ./101-leetcode/002/solution.js",
     "101-leetcode:003": "node ./101-leetcode/003/solution.js",
