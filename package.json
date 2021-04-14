@@ -44,6 +44,7 @@
     "003-algorithms:002-sorting:exercise:003-insertion-sort": "node ./003-algorithms/002-sorting/exercise/003-insertion-sort/solution.js",
     "003-algorithms:002-sorting:exercise:004-merge-sort": "node ./003-algorithms/002-sorting/exercise/004-merge-sort/solution.js",
     "003-algorithms:002-sorting:exercise:005-quick-sort": "node ./003-algorithms/002-sorting/exercise/005-quick-sort/solution.js",
+    "003-algorithms:002-sorting:exercise:006-heap-sort": "node ./003-algorithms/002-sorting/exercise/006-heap-sort/solution.js",
     "101-leetcode:001": "node ./101-leetcode/001/solution.js",
     "101-leetcode:002": "node ./101-leetcode/002/solution.js",
     "101-leetcode:003": "node ./101-leetcode/003/solution.js",
