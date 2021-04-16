@@ -36,6 +36,7 @@
     "002-data-structures:004-stack-queues:002": "node ./002-data-structures/004-stacks-queues/002.js",
     "002-data-structures:004-stack-queues:003": "node ./002-data-structures/004-stacks-queues/003.js",
     "002-data-structures:004-stack-queues:004": "node ./002-data-structures/004-stacks-queues/004.js",
+    "002-data-structures:005-trees:exercise:001-binary-search-tree": "node ./002-data-structures/005-trees/exercise/001-binary-search-tree/solution.js",
     "003-algorithms:001-recursion:001": "node ./003-algorithms/001-recursion/001.js",
     "003-algorithms:001-recursion:002": "node ./003-algorithms/001-recursion/002.js",
     "003-algorithms:002-sorting:001": "node ./003-algorithms/002-sorting/001.js",
