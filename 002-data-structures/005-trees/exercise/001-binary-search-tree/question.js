@@ -30,7 +30,8 @@ const traverse = (node) => ({
 
 const tree = new BinarySearchTree();
 
-console.log(`tree.lookup(12):`, tree.lookup(12));
+console.log(`tree.lookup(12):`, tree.lookup(12)); // false
+console.log(`tree.remove(16):`, tree.remove(16)); // false
 
 tree.insert(9);
 tree.insert(4);
@@ -44,7 +45,7 @@ tree.insert(1);
 console.log(
   `traverse(tree.root):`,
   JSON.stringify(traverse(tree.root), null, 2),
-); // Tree Diagram 👇
+); // 👇 Tree Diagram Implementation
 /**
  *      9
  *   4     20
@@ -61,7 +62,7 @@ console.log(`tree.remove(5):`, tree.remove(5)); // false
 console.log(
   `traverse(tree.root):`,
   JSON.stringify(traverse(tree.root), null, 2),
-); // Tree Diagram 👇
+); // 👇 Tree Diagram Implementation
 /**
  *          9
  *   6           20
