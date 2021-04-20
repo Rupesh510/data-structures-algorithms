@@ -49,6 +49,7 @@
     "003-algorithms:002-sorting:exercise:006-heap-sort": "node ./003-algorithms/002-sorting/exercise/006-heap-sort/solution.js",
     "003-algorithms:003-searching:001": "node ./003-algorithms/003-searching/001.js",
     "003-algorithms:003-searching:exercise:001-bfs": "node ./003-algorithms/003-searching/exercise/001-bfs/solution.js",
+    "003-algorithms:003-searching:exercise:002-dfs": "node ./003-algorithms/003-searching/exercise/002-dfs/solution.js",
     "101-leetcode:001": "node ./101-leetcode/001/solution.js",
     "101-leetcode:002": "node ./101-leetcode/002/solution.js",
     "101-leetcode:003": "node ./101-leetcode/003/solution.js",
