@@ -190,11 +190,11 @@ console.log(
 ); // [9, 4, 1, 6, 20, 15, 170]
 
 console.log(
-  `tree.DepthFirstSearchPreOrder():`,
-  JSON.stringify(tree.DepthFirstSearchPreOrder(), null, 2),
-); // [9, 4, 1, 6, 20, 15, 170]
+  `tree.DepthFirstSearchInOrder():`,
+  JSON.stringify(tree.DepthFirstSearchInOrder(), null, 2),
+); // [1, 4, 6, 9, 15, 20, 170]
 
 console.log(
-  `tree.DepthFirstSearchPreOrder():`,
-  JSON.stringify(tree.DepthFirstSearchPreOrder(), null, 2),
-); // [9, 4, 1, 6, 20, 15, 170]
+  `tree.DepthFirstSearchPostOrder():`,
+  JSON.stringify(tree.DepthFirstSearchPostOrder(), null, 2),
+); // [1, 6, 4, 15, 170, 20, 9]

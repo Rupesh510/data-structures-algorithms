@@ -23,6 +23,6 @@ traverse(tree.root); // {...} // JSON Code
 
 tree.DepthFirstSearchPreOrder(); // [9, 4, 1, 6, 20, 15, 170]
 
-tree.DepthFirstSearchPreOrder(); // [9, 4, 1, 6, 20, 15, 170]
+tree.DepthFirstSearchInOrder(); // [1, 4, 6, 9, 15, 20, 170]
 
-tree.DepthFirstSearchPreOrder(); // [9, 4, 1, 6, 20, 15, 170]
+tree.DepthFirstSearchPostOrder(); // [1, 6, 4, 15, 170, 20, 9]
