@@ -10,8 +10,7 @@ function fibWithMemo() {
     if (n in cache) return cache[n];
 
     fibExecutionCost += 1;
-    if (n <= 1) return n;
-    cache[n] = fib(n - 2) + fib(n - 1);
+    cache[n] = n <= 1 ? n : fib(n - 2) + fib(n - 1);
     return cache[n];
   };
 }
@@ -25,10 +24,10 @@ fasterFib(6); // 8
 // => { fibExecutionCost: 3 }
 
 fasterFib(10); // 55
-// => { fibExecutionCost: 8 }
+// => { fibExecutionCost: 7 }
 
 fasterFib(20); // 6765
-// => { fibExecutionCost: 12 }
+// => { fibExecutionCost: 11 }
 
 fasterFib(30); // 832040
-// => { fibExecutionCost: 22 }
+// => { fibExecutionCost: 21 }

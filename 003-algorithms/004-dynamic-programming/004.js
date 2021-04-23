@@ -11,8 +11,7 @@
       if (n in cache) return cache[n];
 
       fibExecutionCost += 1;
-      if (n <= 1) return n;
-      cache[n] = fib(n - 2) + fib(n - 1);
+      cache[n] = n <= 1 ? n : fib(n - 2) + fib(n - 1);
       return cache[n];
     };
   }
@@ -32,15 +31,15 @@
   console.log("fasterFib(10):", {
     fibExecutionCost,
     result: fasterFib(10),
-  }); // fasterFib(10): { fibExecutionCost: 8, result: 55 }
+  }); // fasterFib(10): { fibExecutionCost: 7, result: 55 }
 
   console.log("fasterFib(20):", {
     fibExecutionCost,
     result: fasterFib(20),
-  }); // fasterFib(20): { fibExecutionCost: 12, result: 6765 }
+  }); // fasterFib(20): { fibExecutionCost: 11, result: 6765 }
 
   console.log("fasterFib(30):", {
     fibExecutionCost,
     result: fasterFib(30),
-  }); // fasterFib(30): { fibExecutionCost: 22, result: 832040 }
+  }); // fasterFib(30): { fibExecutionCost: 21, result: 832040 }
 }
