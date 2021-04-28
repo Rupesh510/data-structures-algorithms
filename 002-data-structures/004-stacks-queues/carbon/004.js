@@ -8,7 +8,7 @@ class Queue {
   }
 
   enqueue(value) {
-    this.array.unshift(value);
+    this.array.push(value);
     return this;
   }
 
