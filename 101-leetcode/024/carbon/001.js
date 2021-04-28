@@ -1,9 +1,6 @@
 function levelOrder(root) {
   let result = [];
-
-  if (root === null) {
-    return result;
-  }
+  if (root === null) return result;
 
   let queue = [];
   queue.push(root);
