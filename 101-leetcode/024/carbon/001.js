@@ -7,9 +7,9 @@ function levelOrder(root) {
 
   while (queue.length > 0) {
     let row = [];
-    let rowSize = queue.length;
+    let queueSize = queue.length;
 
-    while (rowSize > 0) {
+    while (queueSize > 0) {
       let currentNode = queue.shift();
 
       if (currentNode.left !== null) {
@@ -21,7 +21,7 @@ function levelOrder(root) {
       }
 
       row.push(currentNode.val);
-      rowSize -= 1;
+      queueSize -= 1;
     }
 
     result.push(row);
