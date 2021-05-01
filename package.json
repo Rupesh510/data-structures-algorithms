@@ -39,6 +39,8 @@
     "002-data-structures:005-trees:exercise:001-binary-search-tree": "node ./002-data-structures/005-trees/exercise/001-binary-search-tree/solution.js",
     "002-data-structures:006-graph:exercise:001": "node ./002-data-structures/006-graphs/exercise/001/solution.js",
     "002-data-structures:007-heaps-priority-queues:001": "node ./002-data-structures/007-heaps-priority-queues/001.js",
+    "002-data-structures:008-2d-arrays:001": "node ./002-data-structures/008-2d-arrays/001.js",
+    "002-data-structures:008-2d-arrays:002": "node ./002-data-structures/008-2d-arrays/002.js",
     "003-algorithms:001-recursion:001": "node ./003-algorithms/001-recursion/001.js",
     "003-algorithms:001-recursion:002": "node ./003-algorithms/001-recursion/002.js",
     "003-algorithms:002-sorting:001": "node ./003-algorithms/002-sorting/001.js",
