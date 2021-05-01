@@ -1,5 +1,5 @@
 /**
- * 2-D Arrays (Matrix traversal)
+ * 2-D Arrays (Matrix) Traversal
  * Approach: Breadth First Search
  */
 
