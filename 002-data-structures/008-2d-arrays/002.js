@@ -1,6 +1,8 @@
 /**
  * 2-D Arrays (Matrix) Traversal
  * Approach: Breadth First Search
+ * Time Complexity: O(n)
+ * Space Complexity: O(n)
  */
 
 const directions = [
