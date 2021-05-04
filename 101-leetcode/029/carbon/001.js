@@ -1,3 +1,14 @@
+const directions = [
+  [-1, 0], // up
+  [0, 1], // right
+  [1, 0], // down
+  [0, -1], // left
+];
+
+const ROTTEN = 2;
+const FRESH = 1;
+const EMPTY = 0;
+
 function orangesRotting(grid) {
   if (grid.length === 0) return 0;
 
