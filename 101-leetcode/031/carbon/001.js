@@ -1,5 +1,7 @@
 /**
  * Approach: Naive Breadth First Search
+ * Time Complexity: O(P + n^3)
+ * Space Complexity: O(n^2)
  */
 
 function canFinish(numCourses, prerequisites) {
