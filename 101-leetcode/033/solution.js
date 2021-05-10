@@ -64,3 +64,35 @@ console.log("\n================================\n");
 
   console.log(minCostClimbingStairs([1, 100, 1, 1, 1, 100, 1, 1, 100, 1])); // 6
 }
+
+console.log("\n================================\n");
+
+{
+  /**
+   * Approach: Bottom up iterative memoized optimized
+   * Time Complexity: O(n)
+   * Space Complexity: O(1)
+   */
+
+  function minCostClimbingStairs(cost) {
+    const n = cost.length;
+
+    if (n === 0) return 0;
+    if (n === 1) return cost[0];
+
+    let dpOne = cost[0];
+    let dpTwo = cost[1];
+
+    for (let i = 2; i < n; i += 1) {
+      const current = cost[i] + Math.min(dpOne, dpTwo);
+      dpOne = dpTwo;
+      dpTwo = current;
+    }
+
+    return Math.min(dpOne, dpTwo);
+  }
+
+  console.log(minCostClimbingStairs([10, 15, 20])); // 15
+
+  console.log(minCostClimbingStairs([1, 100, 1, 1, 1, 100, 1, 1, 100, 1])); // 6
+}
