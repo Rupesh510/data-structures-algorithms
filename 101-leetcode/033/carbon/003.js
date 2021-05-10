@@ -1,7 +1,7 @@
 /**
- * Approach: Bottom up iterative memoized optimized
+ * Approach: Bottom up iterative memoized
  * Time Complexity: O(n)
- * Space Complexity: O(1)
+ * Space Complexity: O(n)
  */
 
 function minCostClimbingStairs(cost) {
@@ -10,14 +10,15 @@ function minCostClimbingStairs(cost) {
   if (n === 0) return 0;
   if (n === 1) return cost[0];
 
-  let dpOne = cost[0];
-  let dpTwo = cost[1];
+  const dp = [];
 
-  for (let i = 2; i < n; i += 1) {
-    const current = cost[i] + Math.min(dpOne, dpTwo);
-    dpOne = dpTwo;
-    dpTwo = current;
+  for (let i = 0; i < n; i += 1) {
+    if (i < 2) {
+      dp[i] = cost[i];
+    } else {
+      dp[i] = cost[i] + Math.min(dp[i - 1], dp[i - 2]);
+    }
   }
 
-  return Math.min(dpOne, dpTwo);
+  return Math.min(dp[n - 1], dp[n - 2]);
 }
