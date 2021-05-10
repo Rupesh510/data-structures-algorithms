@@ -5,7 +5,7 @@
 
 {
   /**
-   * Approach: Top down recursive
+   * Approach: Step 1, Top down recursive
    * Time Complexity: O(2^n)
    * Space Complexity: O(n)
    */
@@ -31,7 +31,7 @@ console.log("\n================================\n");
 
 {
   /**
-   * Approach: Top down recursive memoized
+   * Approach: Step 2, Top down recursive memoized
    * Time Complexity: O(n)
    * Space Complexity: O(n)
    */
@@ -62,7 +62,7 @@ console.log("\n================================\n");
 
 {
   /**
-   * Approach: Bottom up iterative memoized
+   * Approach: Step 3, Bottom up iterative memoized
    * Time Complexity: O(n)
    * Space Complexity: O(n)
    */
@@ -95,7 +95,7 @@ console.log("\n================================\n");
 
 {
   /**
-   * Approach: Bottom up iterative memoized optimized
+   * Approach: Step 4, Bottom up iterative memoized optimized
    * Time Complexity: O(n)
    * Space Complexity: O(1)
    */

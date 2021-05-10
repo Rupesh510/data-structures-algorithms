@@ -1,5 +1,5 @@
 /**
- * Approach: Top down recursive memoized
+ * Approach: Step 2, Top down recursive memoized
  * Time Complexity: O(n)
  * Space Complexity: O(n)
  */
