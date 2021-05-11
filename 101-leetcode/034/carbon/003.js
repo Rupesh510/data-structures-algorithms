@@ -4,6 +4,17 @@
  * Space Complexity: O(n^2 x k)
  */
 
+const DIRECTIONS = [
+  [-2, -1],
+  [-2, 1],
+  [-1, 2],
+  [1, 2],
+  [2, 1],
+  [2, -1],
+  [1, -2],
+  [-1, -2],
+];
+
 function knightProbability(n, k, row, column) {
   const dp = new Array(k + 1).fill(0).map(() => {
     return new Array(n).fill(0).map(() => {
