@@ -22,8 +22,7 @@ function knightProbability(n, k, row, column) {
           const prevCol = col + dir[1];
 
           if (prevRow >= 0 && prevRow < n && prevCol >= 0 && prevCol < n) {
-            dp[step][row][col] =
-              dp[step][row][col] + dp[step - 1][prevRow][prevCol] / 8;
+            dp[step][row][col] += dp[step - 1][prevRow][prevCol] / 8;
           }
         }
       }
