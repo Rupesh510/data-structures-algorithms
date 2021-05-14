@@ -1,0 +1,13 @@
+Given 2 arrays, create a function that let's a user
+know (true/false) whether these two arrays contains
+any common items.
+
+Example:
+containsCommonItem(
+  ["a", "b", "c", "x"],
+  ["z", "y", "i"],
+); // false
+containsCommonItem(
+  ["a", "b", "c", "x"],
+  ["z", "y", "x"],
+); // true
