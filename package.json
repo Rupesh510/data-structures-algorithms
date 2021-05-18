@@ -102,6 +102,7 @@
     "101-leetcode:037": "node ./101-leetcode/037/solution.js",
     "101-leetcode:038": "node ./101-leetcode/038/solution.js",
     "101-leetcode:039": "node ./101-leetcode/039/solution.js",
+    "101-leetcode:040": "node ./101-leetcode/040/solution.js",
     "102-wb:001": "node ./102-wb/001.js",
     "102-wb:002": "node ./102-wb/002.js",
     "start": "node ./index.js"
