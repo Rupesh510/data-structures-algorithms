@@ -1,6 +1,7 @@
 /**
  * Missing Number
  * https://leetcode.com/problems/missing-number/
+ * Solution Ref: https://youtu.be/4LrVhAxJUsA
  */
 
 {
