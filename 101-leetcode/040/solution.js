@@ -4,7 +4,17 @@
  */
 
 {
-  function missingNumber(nums) {}
+  function missingNumber(nums) {
+    let sumIfNoneMissing = nums.length;
+    let actualSum = 0;
+
+    for (let i = 0; i < nums.length; i += 1) {
+      sumIfNoneMissing += i;
+      actualSum += nums[i];
+    }
+
+    return sumIfNoneMissing - actualSum;
+  }
 
   console.log(`missingNumber([3, 0, 1]):`, missingNumber([3, 0, 1])); // 2
   /**
