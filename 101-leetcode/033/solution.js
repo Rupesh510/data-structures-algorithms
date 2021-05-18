@@ -1,6 +1,7 @@
 /**
  * Min Cost Climbing Stairs
  * https://leetcode.com/problems/min-cost-climbing-stairs/
+ * Solution Ref: https://www.udemy.com/share/103J2KAEsSeFtRQX4=/
  */
 
 {

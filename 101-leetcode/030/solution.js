@@ -1,6 +1,7 @@
 /**
  * Time Needed to Inform All Employees
  * https://leetcode.com/problems/time-needed-to-inform-all-employees/
+ * Solution Ref: https://www.udemy.com/share/103J2KAEsSeFtRQX4=/
  */
 
 {

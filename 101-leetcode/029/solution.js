@@ -1,6 +1,7 @@
 /**
  * Rotting Oranges
  * https://leetcode.com/problems/rotting-oranges/
+ * Solution Ref: https://www.udemy.com/share/103J2KAEsSeFtRQX4=/
  */
 
 const directions = require("./directions");

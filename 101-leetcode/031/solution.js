@@ -1,6 +1,7 @@
 /**
  * Course Schedule
  * https://leetcode.com/problems/course-schedule/
+ * Solution Ref: https://www.udemy.com/share/103J2KAEsSeFtRQX4=/
  */
 
 {

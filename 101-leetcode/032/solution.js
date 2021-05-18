@@ -1,6 +1,7 @@
 /**
  * Network Delay Time
  * https://leetcode.com/problems/network-delay-time/
+ * Solution Ref: https://www.udemy.com/share/103J2KAEsSeFtRQX4=/
  */
 
 const PriorityQueue = require("./priority-queue");

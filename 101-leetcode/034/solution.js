@@ -1,6 +1,7 @@
 /**
  * Knight Probability in Chessboard
  * https://leetcode.com/problems/knight-probability-in-chessboard/
+ * Solution Ref: https://www.udemy.com/share/103J2KAEsSeFtRQX4=/
  */
 
 const DIRECTIONS = require("./directions");
