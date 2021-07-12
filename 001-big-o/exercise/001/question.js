@@ -3,6 +3,8 @@
  * (Hint, you may want to go line by line)
  */
 
+function anotherFunction() {}
+
 function funChallenge(input) {
   let a = 10;
   a = 50 + 3;
