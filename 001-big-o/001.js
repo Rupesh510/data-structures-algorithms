@@ -33,5 +33,7 @@
     console.log(`Call to find Nemo took ${timeTaken} milliseconds.`);
   }
 
+  /* findNemo(nemo); */
+  /* findNemo(everyone); */
   findNemo(large);
 }
