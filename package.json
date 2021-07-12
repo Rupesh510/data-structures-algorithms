@@ -106,6 +106,7 @@
     "101-leetcode:041": "node ./101-leetcode/041/solution.js",
     "102-wb:001": "node ./102-wb/001.js",
     "102-wb:002": "node ./102-wb/002.js",
+    "103-sublime:001": "node ./103-sublime/101/solution.js",
     "start": "node ./index.js"
   },
   "author": "Harman Manchanda<https://github.com/IamManchanda>",
