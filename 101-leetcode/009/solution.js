@@ -17,7 +17,7 @@
     if (finalS.length !== finalT.length) {
       return false;
     } else {
-      for (let p = 0; p < finalS.length; p++) {
+      for (let p = 0; p < finalS.length; p += 1) {
         if (finalS[p] !== finalT[p]) {
           return false;
         }
@@ -28,7 +28,7 @@
 
   function buildString(str) {
     const builtString = [];
-    for (let p = 0; p < str.length; p++) {
+    for (let p = 0; p < str.length; p += 1) {
       if (str[p] !== "#") {
         builtString.push(str[p]);
       } else {
