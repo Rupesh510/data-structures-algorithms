@@ -46,12 +46,8 @@ console.log("\n================================\n");
    */
 
   function rotate(nums, k) {
-    /**
-     * nums = [5, 6, 7, 1, 2, 3, 4]
-     * k = 1
-     */
     k = k % nums.length;
-    while (k > 0) { // true
+    while (k > 0) {
       nums.unshift(nums.pop());
       k -= 1;
     }
