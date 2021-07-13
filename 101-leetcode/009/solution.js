@@ -11,18 +11,6 @@
    * Space complexity: O(m + n)
    */
 
-  function buildString(str) {
-    const builtString = [];
-    for (let p = 0; p < str.length; p++) {
-      if (str[p] !== "#") {
-        builtString.push(str[p]);
-      } else {
-        builtString.pop();
-      }
-    }
-    return builtString;
-  }
-
   function backspaceCompare(S, T) {
     const finalS = buildString(S);
     const finalT = buildString(T);
@@ -36,6 +24,18 @@
       }
     }
     return true;
+  }
+
+  function buildString(str) {
+    const builtString = [];
+    for (let p = 0; p < str.length; p++) {
+      if (str[p] !== "#") {
+        builtString.push(str[p]);
+      } else {
+        builtString.pop();
+      }
+    }
+    return builtString;
   }
 
   console.log(
@@ -82,18 +82,6 @@ console.log("\n================================\n");
    * Space complexity: O(1)
    */
 
-  function movePointer(P, p) {
-    let backCount = 2;
-    while (backCount > 0) {
-      p -= 1;
-      backCount -= 1;
-      if (P[p] === "#") {
-        backCount += 2;
-      }
-    }
-    return p;
-  }
-
   function backspaceCompare(S, T) {
     let pS = S.length - 1,
       pT = T.length - 1;
@@ -115,6 +103,18 @@ console.log("\n================================\n");
       }
     }
     return true;
+  }
+
+  function movePointer(P, p) {
+    let backCount = 2;
+    while (backCount > 0) {
+      p -= 1;
+      backCount -= 1;
+      if (P[p] === "#") {
+        backCount += 2;
+      }
+    }
+    return p;
   }
 
   console.log(
