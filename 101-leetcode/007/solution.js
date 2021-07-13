@@ -13,10 +13,10 @@
   function containsDuplicate(nums) {
     let numbers = new Set();
     for (const num of nums) {
-      if (!numbers.has(num)) {
-        numbers.add(num);
-      } else {
+      if (numbers.has(num)) {
         return true;
+      } else {
+        numbers.add(num);
       }
     }
     return false;
