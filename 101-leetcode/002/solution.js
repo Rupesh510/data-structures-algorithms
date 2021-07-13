@@ -50,9 +50,9 @@ console.log("\n================================\n");
    */
 
   function maxArea(height) {
-    let p1 = 0,
-      p2 = height.length - 1,
-      max = 0;
+    let max = 0,
+      p1 = 0,
+      p2 = height.length - 1;
     while (p1 < p2) {
       const h = Math.min(height[p1], height[p2]);
       const w = p2 - p1;
