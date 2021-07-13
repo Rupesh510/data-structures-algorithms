@@ -110,6 +110,7 @@
     "103-sublime:001-google": "node ./103-sublime/101/solution-google.js",
     "103-sublime:002": "node ./103-sublime/002/solution.js",
     "103-sublime:003": "node ./103-sublime/003/solution.js",
+    "103-sublime:004": "node ./103-sublime/004/solution.js",
     "start": "node ./index.js"
   },
   "author": "Harman Manchanda<https://github.com/IamManchanda>",
