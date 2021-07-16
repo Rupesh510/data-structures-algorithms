@@ -116,6 +116,7 @@
     "103-sublime:007": "node ./103-sublime/007/solution.js",
     "103-sublime:008": "node ./103-sublime/008/solution.js",
     "103-sublime:009": "node ./103-sublime/009/solution.js",
+    "103-sublime:010": "node ./103-sublime/010/solution.js",
     "start": "node ./index.js"
   },
   "author": "Harman Manchanda<https://github.com/IamManchanda>",
