@@ -50,3 +50,68 @@
   ); // 8
   console.log(`maxProfit([5, 4, 3, 2, 1]):`, maxProfit([5, 4, 3, 2, 1])); // 0
 }
+
+{
+  /**
+   * Buy and Sell Stock
+   *
+   * Approach: Optimal
+   */
+  function maxProfit(prices) {
+    let max = 0;
+    let min = Number.MAX_VALUE;
+    for (const price of prices) {
+      if (price < min) {
+        min = price;
+      } else if (price - min > max) {
+        max = price - min;
+      }
+    }
+    return max;
+  }
+
+  console.log(
+    `maxProfit([5, 3, 7, 5, 10, 8, 4, 3]):`,
+    maxProfit([5, 3, 7, 5, 10, 8, 4, 3]),
+  ); // 7
+  console.log(
+    `maxProfit([5, 8, 3, 11, 15, 4, 8]):`,
+    maxProfit([5, 8, 3, 11, 15, 4, 8]),
+  ); // 12
+  console.log(
+    `maxProfit([1, 7, 3, 9, 3, 7, 3]):`,
+    maxProfit([1, 7, 3, 9, 3, 7, 3]),
+  ); // 8
+  console.log(`maxProfit([5, 4, 3, 2, 1]):`, maxProfit([5, 4, 3, 2, 1])); // 0
+}
+
+{
+  /**
+   * Buy and Sell Stock
+   *
+   * Approach: Optimal, with `Math` Global object
+   */
+  function maxProfit(prices) {
+    let max = 0;
+    let min = Number.MAX_VALUE;
+    for (const price of prices) {
+      min = Math.min(min, price);
+      max = Math.max(max, price - min);
+    }
+    return max;
+  }
+
+  console.log(
+    `maxProfit([5, 3, 7, 5, 10, 8, 4, 3]):`,
+    maxProfit([5, 3, 7, 5, 10, 8, 4, 3]),
+  ); // 7
+  console.log(
+    `maxProfit([5, 8, 3, 11, 15, 4, 8]):`,
+    maxProfit([5, 8, 3, 11, 15, 4, 8]),
+  ); // 12
+  console.log(
+    `maxProfit([1, 7, 3, 9, 3, 7, 3]):`,
+    maxProfit([1, 7, 3, 9, 3, 7, 3]),
+  ); // 8
+  console.log(`maxProfit([5, 4, 3, 2, 1]):`, maxProfit([5, 4, 3, 2, 1])); // 0
+}
