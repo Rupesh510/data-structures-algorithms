@@ -1,0 +1,13 @@
+Buy and Sell Stock
+
+You are given an array prices where prices[i] is the price of a given stock on the ith day.
+
+You want to MAXIMIZE your profit by choosing a single day to buy once stock and choosing a DIFFERENT day in the future to sell that stock.
+
+Return the MAXIMIZE PROFIT you can achieve from this transaction.
+> [5, 3, 7, 5, 10, 8, 4, 3] => Max Profit: 10 - 3 = 7
+> [5, 8, 3, 11, 15, 4, 8] => Max Profit: 15 - 3 = 7
+> [1, 7, 3, 9, 3, 7, 3] => Max Profit: 9 - 1 = 8
+
+If you cannot achieve any profit, return 0.
+> [5, 4, 3, 2, 1] => Max Profit: 0
