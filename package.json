@@ -106,6 +106,7 @@
     "101-leetcode:041": "node ./101-leetcode/041/solution.js",
     "102-common:001": "node ./102-common/001.js",
     "102-common:002": "node ./102-common/002.js",
+    "102-common:003": "node ./102-common/003.js",
     "201-copilot:001": "node ./201-copilot/001-two-sum.js",
     "201-copilot:002": "node ./201-copilot/002-maximum-subarray.js",
     "201-copilot:003": "node ./201-copilot/003-move-zeroes.js",
