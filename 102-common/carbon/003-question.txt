@@ -6,7 +6,7 @@ You want to MAXIMIZE your profit by choosing a single day to buy once stock and 
 
 Return the MAXIMIZE PROFIT you can achieve from this transaction.
 > [5, 3, 7, 5, 10, 8, 4, 3] => Max Profit: 10 - 3 = 7
-> [5, 8, 3, 11, 15, 4, 8] => Max Profit: 15 - 3 = 7
+> [5, 8, 3, 11, 15, 4, 8] => Max Profit: 15 - 3 = 12
 > [1, 7, 3, 9, 3, 7, 3] => Max Profit: 9 - 1 = 8
 
 If you cannot achieve any profit, return 0.
