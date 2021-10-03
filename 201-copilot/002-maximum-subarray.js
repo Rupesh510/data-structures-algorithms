@@ -27,6 +27,6 @@ function maxSubArray(nums) {
   return max;
 }
 
-maxSubArray([-2, 1, -3, 4, -1, 2, 1, -5, 4]); // 6
-maxSubArray([1]); // 1
-maxSubArray([5, 4, -1, 7, 8]); // 23
+console.log(maxSubArray([-2, 1, -3, 4, -1, 2, 1, -5, 4])); // 6
+console.log(maxSubArray([1])); // 1
+console.log(maxSubArray([5, 4, -1, 7, 8])); // 23
